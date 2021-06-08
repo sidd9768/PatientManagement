@@ -25,7 +25,7 @@ public class PatientServiceImp implements PatientService {
 	@Override
 	@Transactional
 	public List<Patient> getAllPatient() {
-		return patientDAO.getAllEmployee();
+		return patientDAO.getAllPatient();
 	}
 
 	@Override
@@ -35,8 +35,27 @@ public class PatientServiceImp implements PatientService {
 	}
 
 	@Override
+	@Transactional
 	public Patient updatePatient(Patient patient) {
 		return patientDAO.updatePatient(patient);
+	}
+
+	@Override
+	@Transactional
+	public List<Patient> patientSearch(String searchText) {
+		return patientDAO.findPatient(searchText);
+	}
+
+	@Override
+	@Transactional
+	public List<Patient> betweenDatesPatient(String startDate, String endDate) {
+		return patientDAO.betweenDatesPatient(startDate, endDate);
+	}
+
+	@Override
+	@Transactional
+	public List<Patient> filterPatient(String orderWay) {
+		return patientDAO.filterPatient(orderWay);
 	}
 
 	

@@ -1,0 +1,150 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+.main-container {
+	width: 90%;
+	min-height: 90%;
+	margin: auto;
+	margin-top: 2%;
+	background-color: white;
+	border-radius: 30px;
+	padding: 0;
+	box-shadow: 1px 10px 5px 0px rgba(0, 0, 0, 0.20);
+	-webkit-box-shadow: 1px 10px 5px 0px rgba(0, 0, 0, 0.20);
+	-moz-box-shadow: 1px 10px 5px 0px rgba(0, 0, 0, 0.20);
+}
+
+.main-container-login {
+    width: 70%;
+    min-height: 70%;
+    margin: auto;
+    margin-top: 2%;
+    background-color: white;
+    border-radius: 30px;
+    padding: 0;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    box-shadow: 1px 10px 5px 0px rgba(0,0,0,0.20);
+    -webkit-box-shadow: 1px 10px 5px 0px rgba(0,0,0,0.20);
+    -moz-box-shadow: 1px 10px 5px 0px rgba(0,0,0,0.20);
+}
+
+.nav-bar {
+	width: 100%;
+	height: 70px;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	background-color: #e8effc;
+	display: block;
+}
+
+.nav-div {
+	display: flex;
+	justify-content: space-between;
+	align-items: start;
+}
+
+.nav-text {
+	display: inline-block;
+	padding: 2rem;
+	padding-top: 0;
+	font-size: 1.4rem;
+	font-weight: lighter;
+	font-family: mulish, monospace;
+	margin-top: 20px;
+	color: #3c64b1;
+}
+
+.nav-link {
+	text-decoration: none;
+	margin-right: 2rem;
+	margin-top: 15px;
+	color: #3c64b1;
+	font-weight: lighter;
+	font-family: mulish, monospace;
+	font-size: 1rem;
+}
+
+input {
+	margin: 0;
+	padding: 0;
+}
+
+.form-search {
+	
+}
+
+.search-div {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+}
+
+.text-search {
+	padding: 0 20px 0 0;
+	width: 400px;
+	height: 50px;
+	font-family: mulish, monospace;
+	padding-left: 20px;
+	display: inline-block;
+}
+
+input:focus {
+	outline: none;
+	border: none;
+}
+
+
+.btn-search {
+	border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+	margin-left: -20px;
+	width: 150px;
+	height: 40px;
+	color: white;
+	background-color: #1767ad;
+    border: none;
+    display: inline-block;
+}
+
+.categories {
+	text-align: center;
+	margin-top: 130px;
+	padding: 30px;
+}
+
+.cat-image {
+	width: 45px;
+	height: 45px;
+}
+
+.cat-text {
+	font-size: 1.3rem;
+	font-family: mulish, monospace;
+	margin-top: 10px;
+}
+
+.cat-btn {
+	font-family: mulish, monospace;
+	color: teal;
+}
+
+/* table */
+
+table {
+    font-family: mulish, monospace;
+}
+
+.table-head-color {
+    background-color: #1767ad;
+    color: white;
+}
+
+.table-container {
+    padding: 50px;
+}
